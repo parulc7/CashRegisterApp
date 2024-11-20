@@ -34,6 +34,10 @@ class Change {
         return this
     }
 
+    override fun toString(): String {
+        return "$map"
+    }
+
     companion object {
 
         fun none(): Change =
